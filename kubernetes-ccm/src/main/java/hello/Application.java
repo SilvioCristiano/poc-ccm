@@ -14,7 +14,7 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() throws UnknownHostException {
-		return "Hello World Gafisa  " + " HostName:  " + InetAddress.getLocalHost().getHostName() + " HostAddress:  " + InetAddress.getLocalHost().getHostAddress(); 
+		return "Hello World Cloud Native  " + " HostName:  " + InetAddress.getLocalHost().getHostName() + " HostAddress:  " + InetAddress.getLocalHost().getHostAddress(); 
 	}
 
 	public static void main(String[] args) {
